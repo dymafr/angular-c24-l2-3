@@ -1,4 +1,3 @@
-import 'zone.js'; // Nécessaire uniquement pour Stackblitz
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -36,6 +35,7 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { CdkTableModule } from '@angular/cdk/table';
 import { ExempleComponent } from './app/exemple';
+import 'zone.js'; // Nécessaire uniquement pour Stackblitz
 
 @NgModule({
   exports: [
